@@ -1,7 +1,7 @@
 {
-  "homepage": "https://aleksandrdimov.github.io/Online-Store-React",
   "name": "online-store",
   "version": "0.1.0",
+  "homepage": "https://aleksandrdimov.github.io/Online-Store-React",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",
