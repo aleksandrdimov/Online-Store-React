@@ -1,0 +1,117 @@
+.home-top {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: -120px;
+    margin-bottom: 65px;
+    padding: 0 10px;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__item {
+        position: relative;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 5px grey;
+    }
+
+    &__picture {
+        cursor: pointer;
+        position: relative;
+        height: 360px;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        &:hover div {
+            content: '';
+            position: absolute;
+            display: block;
+            z-index: 5;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(128, 128, 128, .5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__hover {
+        display: none;
+    }
+
+
+
+}
+
+.icon {
+    &__buy {
+        &:hover {
+            fill: rgb(22, 92, 22);
+        }
+    }
+
+    &__like {
+        margin-right: 50px;
+
+        &:hover {
+            fill: rgb(255, 47, 47);
+        }
+    }
+}
+
+.content {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 20px 10px;
+
+    &__title {
+        cursor: pointer;
+        text-align: center;
+        text-transform: capitalize;
+        overflow: hidden;
+        font-size: 20px;
+        line-height: 30px;
+        color: #223263;
+    }
+
+    &__price {
+        text-align: end;
+        font-family: 'Raleway';
+        font-size: 30px;
+        line-height: 54px;
+        color: #40BFFF;
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    &__rating-box {
+        align-self: end;
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.5px;
+    }
+
+    &__rating {
+        color: #9098B1;
+    }
+
+    &__discount {
+        font-weight: 700;
+        color: #FB7181;
+        margin-left: 8px;
+    }
+}

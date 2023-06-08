@@ -1,0 +1,30 @@
+.home-banner {
+    &__container {
+        position: relative;
+    }
+
+    &__picture {
+        width: 100%;
+        vertical-align: top;
+    }
+
+    &__content {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+        padding: 0 10px;
+    }
+
+    &__title {
+        max-width: 1280px;
+        margin: auto;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 96px;
+        letter-spacing: .5px;
+        color: white;
+    }
+}

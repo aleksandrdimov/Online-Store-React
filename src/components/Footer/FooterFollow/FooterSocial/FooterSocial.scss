@@ -1,0 +1,17 @@
+.social {
+    padding-top: 23px;
+
+    &__facebook,
+    &__twitter {
+        cursor: pointer;
+
+        &:hover path {
+            fill: #f3f3f3;
+            transition: all .4s ease-in-out;
+        }
+    }
+
+    &__facebook {
+        margin-right: 40px;
+    }
+}
