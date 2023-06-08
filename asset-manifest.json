@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Online-Store-React/static/css/main.93138310.css",
+    "main.js": "/Online-Store-React/static/js/main.cf76c92a.js",
+    "static/js/787.a92fe09e.chunk.js": "/Online-Store-React/static/js/787.a92fe09e.chunk.js",
+    "static/media/banner.png": "/Online-Store-React/static/media/banner.ac8f982c6326f23562e5.png",
+    "static/media/image Product.png": "/Online-Store-React/static/media/image Product.80812f8bf16523cdb299.png",
+    "static/media/icon_master_card.svg": "/Online-Store-React/static/media/icon_master_card.bd106c830b3c737db8dc372d336ea85b.svg",
+    "static/media/icon_western_union.svg": "/Online-Store-React/static/media/icon_western_union.2828fb4332ad5f40f34f62bf5a52298c.svg",
+    "static/media/icon_paypal.svg": "/Online-Store-React/static/media/icon_paypal.78b555d42348e07687abe59aaa299a9e.svg",
+    "static/media/icon_visa.svg": "/Online-Store-React/static/media/icon_visa.d70d137a029a1dde1608cdf27220de80.svg",
+    "index.html": "/Online-Store-React/index.html",
+    "main.93138310.css.map": "/Online-Store-React/static/css/main.93138310.css.map",
+    "main.cf76c92a.js.map": "/Online-Store-React/static/js/main.cf76c92a.js.map",
+    "787.a92fe09e.chunk.js.map": "/Online-Store-React/static/js/787.a92fe09e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93138310.css",
+    "static/js/main.cf76c92a.js"
+  ]
+}
